@@ -6,8 +6,8 @@ require_relative '../models/artist'
 require_relative '../models/song'
 
 # data
-require_relative './song_data.rb'
-require_relative './artist_data.rb'
+require_relative './song_data'
+require_relative './artist_data'
 
 Song.destroy_all
 Artist.destroy_all
