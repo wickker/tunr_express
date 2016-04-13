@@ -53,25 +53,25 @@ Make sure to commit after completing each feature. Don't move to the next featur
 
 Build the index feature for `artists`
 
-If you need a reference, check out [this part of the AR/Sinatra lesson](https://github.com/ga-wdi-lessons/sinatra-and-activerecord#the-index-route---wdi-app-1595)
+If you need a reference, check out [the index part of the AR/Sinatra lesson](https://github.com/ga-wdi-lessons/sinatra-and-activerecord#the-index-route---wdi-app-1595)
 
 ### The Show Feature
 
 Build the show feature for an `artist`
 
-If you need a reference, check out [this part of the AR/Sinatra lesson](https://github.com/ga-wdi-lessons/sinatra-and-activerecord#i-do-show-route---wdi-app-10125)
+If you need a reference, check out [the show part of the AR/Sinatra lesson](https://github.com/ga-wdi-lessons/sinatra-and-activerecord#i-do-show-route---wdi-app-10125)
 
 ### The Create Feature
 
 Build a feature that creates a new `artist` in the database.
 
-If you need a reference, check out [this part of the AR/Sinatra lesson](https://github.com/ga-wdi-lessons/sinatra-and-activerecord#the-post-request)
+If you need a reference, check out [the create part of the AR/Sinatra lesson](https://github.com/ga-wdi-lessons/sinatra-and-activerecord#the-post-request)
 
 ### The Edit Feature
 
 Build a feature that allows a user to edit an existing `artist` in the database
 
-If you need a reference, check out [this part of the AR/Sinatra lesson](https://github.com/ga-wdi-lessons/sinatra-and-activerecord#editing-models-lab-reference)
+If you need a reference, check out [the edit part of the AR/Sinatra lesson](https://github.com/ga-wdi-lessons/sinatra-and-activerecord#editing-models-lab-reference)
 
 ### The Delete Feature
 
@@ -81,5 +81,6 @@ Build a feature that allows users to delete an existing `artist` from the databa
 - create the 7 RESTful Routes for `songs`
 - make `songs` a nested route under artists
 
-## Mega-Bonus
+## Mega-Bonuses
 - Make a third model like playlists
+- incorporate user authentication
