@@ -37,7 +37,8 @@ Here's what our data model looks like:
 |id | primary key (int) |
 |title | text |
 |album | text |
-|preview_url | text |
+|preview_link | text |
+|artwork | text |
 |artist_id | foreign key (int) |
 
 
