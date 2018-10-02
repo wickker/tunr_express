@@ -3,6 +3,8 @@
 We're going to be building Tunr, the worlds #1 music catalog / player (those
 Spotify haters can't keep up with us).
 
+![https://media.giphy.com/media/ku5EcFe4PNGWA/giphy.gif](https://media.giphy.com/media/ku5EcFe4PNGWA/giphy.gif)
+
 ## Part 1 - Database / Schema / Models
 
 In this repo are three files `artist_data.json` and `songs.json`. 
