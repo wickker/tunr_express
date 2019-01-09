@@ -66,12 +66,19 @@ app.get('/new', (request, response) => {
  * Listen to requests on port 3000
  * ===================================
  */
-app.listen(3000, () => console.log('~~~ Tuning in to the waves of port 3000 ~~~'));
+const server = app.listen(3000, () => console.log('~~~ Tuning in to the waves of port 3000 ~~~'));
 
-app.on('close', () => {
-  console.log('Closed express server');
+let onClose = function(){
+  
+  console.log("closing");
+  
+  server.close(() => {
+    
+    console.log('Process terminated');
+    
+    pool.end( () => console.log('Shut down db connection pool'));
+  })
+};
 
-  pool.end(() => {
-    console.log('Shut down db connection pool');
-  });
-});
+process.on('SIGTERM', onClose);
+process.on('SIGINT', onClose);
