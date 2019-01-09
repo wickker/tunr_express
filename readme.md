@@ -74,7 +74,6 @@ Build a feature that allows users to delete an existing `artist` from the databa
 
 ## Further
 - create the 7 RESTful Routes for `songs`
-- make `songs` a nested route under artists
-
-## Mega-Further
-- Make a third model like playlists
+- make routes for`songs` that are nested under artists:
+  - `/artist/1/songs`
+  - `/artist/1/songs/new`
