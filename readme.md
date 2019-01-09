@@ -7,7 +7,7 @@ Spotify haters can't keep up with us).
 
 ## Part 1 - Database / Schema / Models
 
-In this repo are three files `artist_data.json` and `songs.json`. 
+In this repo are two files `artist_data.sql` and `songs.sql`. 
 
 ### Create the database
 
@@ -37,11 +37,13 @@ Here's what our data model looks like:
 |id | primary key (int) |
 |title | text |
 |album | text |
-|preview_url | text |
+|preview_link | text |
+|artwork | text |
 |artist_id | foreign key (int) |
 
 
 ### Load the Seed Data
+- Seed your tables with `artist_data.sql` and `songs.sql`.
 
 ### Set up express app
 - Define a route with view defined at `/`. For now it should say `Hello World` when you visit that url.
