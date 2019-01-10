@@ -48,7 +48,7 @@ app.engine('jsx', reactEngine);
  * ===================================
  */
 
-app.get('/', (req, res) => {
+app.get('/', (request, response) => {
   // query database for all pokemon
 
   // respond with HTML page displaying all pokemon
