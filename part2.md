@@ -39,8 +39,7 @@ Add a button to each song in the lists of songs ( `/songs`, `/artist/:id/songs` 
 
 This page will have a list of playlists. Let the user add the song to any playlist.
 
-### Further
-If a playlist already has the song in it, don't render it in the list.
+**sub-futher**: If a playlist already has the song in it, then don't render that playlist in the list.
 
 ### Further
 Add the ability for the user to add the song to multiple playlists at once. ( this is a checkbox form input )
