@@ -23,9 +23,13 @@ Add the ability to put songs in a playlist.
 Add a table for `playlist`. Add a second table to record which somgs are in a playlist. This is a join table between a playlist and songs. (each record in the join table records the adding of one song to the playlist)
 
 GET `/playlist` - list all the playlists
+
 GET `/playlist/new` - render the form to create a new playlist
+
 POST `/playlist` - create a new playlist
+
 GET `/playlist/:id` - show all the song titles inside this playlist
+
 POST `/playlist/:id` - for this playlist, put a single song on the playlist
 
 
