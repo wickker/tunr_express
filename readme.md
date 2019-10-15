@@ -52,6 +52,18 @@ Here's what our data model looks like:
 
 Make sure to commit after completing each feature. Don't move to the next feature without first finishing a feature.
 
+
+| **URL** | **HTTP Verb** |  **Action** | **Purpose**  |
+|------------|-------------|------------|------------|
+| /artists/         | GET       | index    | See all the artists |
+| /artists/new      | GET       | new      | Display the form for a single artist |
+| /artists          | POST      | create   | Create a new artist |
+| /artists/:id      | GET       | show     | See a single artist |
+| /artists/:id/edit | GET       | edit     | Display the form for editing a single artist | 
+| /artists/:id      | PATCH/PUT | update   | Update a artist |
+| /artists/:id      | DELETE    | destroy  | Remove a artist |
+
+
 ### The Index Feature
 
 Build the index feature for `artists`
