@@ -43,10 +43,12 @@ Here's what our data model looks like:
 
 
 ### Load the Seed Data
-- Seed your tables with `artist_data.sql` and `songs.sql`.
+
+Seed your tables with `artist_data.sql` and `songs.sql`.
 
 ### Set up express app
-- Define a route with view defined at `/`. For now it should say `Hello World` when you visit that url.
+
+Define a route with view defined at `/`. For now it should say `Hello World` when you visit that url.
 
 ## Part 2 - Build a RESTful Interface using express
 
@@ -75,11 +77,14 @@ Build a feature that creates a new `artist` in the database.
 
 Build the show feature for an `artist`
 
+
+
 ### Further 
 
-### 1 to Many
+#### 1 to Many
 
-- `/artists/1/songs` - display all the songs for this artist
+`/artists/1/songs` - display all the songs for this artist
+
 
 ### Further 
 
