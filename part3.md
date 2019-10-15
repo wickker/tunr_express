@@ -71,6 +71,7 @@ On the page of songs `/songs/:id` add a button to allow the user to favorite tha
 ##### further
 add this button to every other place that a song is displayed
 
-
+##### further : playlist
+alter your app to record which user creates a playlist. Create a user show route `/users/:id` and show that user's playlists on that page.
 
 
