@@ -50,7 +50,9 @@ Here's what our data model looks like:
 
 ## Part 2 - Build a RESTful Interface using express
 
-Make sure to commit after completing each feature. Don't move to the next feature without first finishing a feature.
+Make sure to commit after completing each feature.
+
+Don't move to the next feature without first finishing a feature.
 
 
 | **URL** | **HTTP Verb** |  **Action** | **Purpose**  |
@@ -63,29 +65,42 @@ Make sure to commit after completing each feature. Don't move to the next featur
 | /artists/:id      | PATCH/PUT | update   | Update a artist |
 | /artists/:id      | DELETE    | destroy  | Remove a artist |
 
-
-### The Index Feature
-
-Build the index feature for `artists`
-
-### The Show Feature
-
-Build the show feature for an `artist`
+## Build in this order:
 
 ### The Create Feature
 
 Build a feature that creates a new `artist` in the database.
 
-### The Edit Feature
+### The Show Feature
+
+Build the show feature for an `artist`
+
+### Further 
+
+### 1 to Many
+
+- `/artists/1/songs` - display all the songs for this artist
+
+### Further 
+
+##### The Index Feature
+
+Build the index feature for `artists`
+
+
+##### The Edit Feature
 
 Build a feature that allows a user to edit an existing `artist` in the database
 
-### The Delete Feature
+##### The Delete Feature
 
 Build a feature that allows users to delete an existing `artist` from the database.
 
-## Further
-- create the 7 RESTful Routes for `songs`
+  
+### Further
+- finish the 7 RESTful Routes for `songs`
+
+### Further
 - make routes for`songs` that are nested under artists:
   - `/artist/1/songs`
   - `/artist/1/songs/new`
