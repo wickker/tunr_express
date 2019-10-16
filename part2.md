@@ -16,7 +16,7 @@ GET `/playlist/new` - render the form to create a new playlist
 
 POST `/playlist` - create a new playlist
 
-GET `/playlist/:id/newsong` - render the form to create a new playlist
+GET `/playlist/:id/newsong` - render the form to add a song to the playlist
 
 GET `/playlist/:id` - show all the song titles inside this playlist
 
