@@ -38,7 +38,7 @@ Redirect them to the home page.
 
 ### User Generated Content
 
-Add the ability for the user to favotie songs.
+Add the ability for the user to favorite songs.
 
 This is a new table: `favorites`
 
